@@ -13,4 +13,14 @@ public class Adder {
 		return sum;
 	}
 
+	public int multiply(int fnum, int snum) {
+		int sum = fnum * snum;
+		return sum ;
+	}
+
+	public double divide(double fnum, double snum) {
+		double sum = fnum / snum;
+		return sum;
+	}
+
 }
